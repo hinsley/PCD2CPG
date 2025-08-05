@@ -17,21 +17,21 @@
     <geom name="floor" type="plane" pos="0 0 0" size="0 0 1" rgba="0.6 0.6 0.6 1" />
     <body name="body" pos="0 0 2">
       <freejoint />
-      <geom mesh="body" rgba="0 0 0.8 1" />
+      <geom name="body" mesh="body" rgba="0 0 0.8 1" />
       <body name="leg_fl">
-        <geom mesh="leg_fl" rgba="0 0.8 0 1" />
+        <geom name="leg_fl" mesh="leg_fl" rgba="0 0.8 0 1" />
         <joint name="hip_fl" pos="1.5 0.8 -0.2" axis="0 1 0" limited="true" range="-45 45" />
       </body>
       <body name="leg_fr">
-        <geom mesh="leg_fr" rgba="0 0.8 0 1" />
+        <geom name="leg_fr" mesh="leg_fr" rgba="0 0.8 0 1" />
         <joint name="hip_fr" pos="1.5 -0.8 -0.2" axis="0 1 0" limited="true" range="-45 45" />
       </body>
       <body name="leg_br">
-        <geom mesh="leg_br" rgba="0 0.8 0 1" />
+        <geom name="leg_br" mesh="leg_br" rgba="0 0.8 0 1" />
         <joint name="hip_br" pos="-1.5 -0.8 -0.2" axis="0 1 0" limited="true" range="-45 45" />
       </body>
       <body name="leg_bl">
-        <geom mesh="leg_bl" rgba="0 0.8 0 1" />
+        <geom name="leg_bl" mesh="leg_bl" rgba="0 0.8 0 1" />
         <joint name="hip_bl" pos="-1.5 0.8 -0.2" axis="0 1 0" limited="true" range="-45 45" />
       </body>
     </body>
